@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author filipe
+ *
+ */
+module gerenciadordecursos {
+}
