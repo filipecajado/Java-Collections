@@ -16,6 +16,11 @@ public class TestaCursoComAluno {
 		javaColecoes.matricula(a2);
 		javaColecoes.matricula(a3);
 		
+		System.out.println("Todos os alunos matriculados");
+		javaColecoes.getAlunos().forEach(a -> System.out.println(a));
+		
+		System.out.println(javaColecoes.estaMatriculado(a1));
+		
 	}
 
 }
